@@ -1,7 +1,7 @@
 # jsoupdemo
    
   
-<a href="https://github.com/sanlisanlisanli/jsoupdemo/tree/master/apk">apk下载</a>    
+<a href="https://github.com/sanlisanlisanli/jsoupdemo/tree/master/apk" target="_blank">apk下载</a>    
   
 要知道每一个资源丰富的app背后都有一个庞大的数据库作为内容支撑的，那是不是意味着没有强大团队的的我们就与开发资源精彩丰富的app无缘了呢   
   
