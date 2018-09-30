@@ -36,7 +36,7 @@ private String link;
   
 然后就可以看到整个document tree 了  
   
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001022941.png"/>     
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001022941.png"/>     
   
 这个网页的结构可是说是非常简单明了，document tree 的结构一目了然    
        
@@ -44,7 +44,7 @@ private String link;
   
 三、依据document tree的结构一一爬取我们想要的文本text，图片链接src和跳转链接href（title,img,content,link）  
   
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/3.png"/>       
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/3.png"/>       
     
 private static String TianZhiWenHead="http://www.astron.ac.cn/";   
 public List<TianWen>getTianWen(String s){//s为网页url  
@@ -80,17 +80,17 @@ e.children()就是 ul 标签下所有的 li 标签，注意用.children的时候
    
 五、本项目截图  
   
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/Screenshot_20181001-035002.jpg" width="260" height="480"/>   
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035002.jpg" width="260" height="480"/>   
 
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/Screenshot_20181001-035009.jpg" width="260" height="480"/>     
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035009.jpg" width="260" height="480"/>     
   
    
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/Screenshot_20181001-035023.jpg" width="260" height="480"/>     
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035023.jpg" width="260" height="480"/>     
     
        
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/Screenshot_20181001-035035.jpg" width="260" height="480"/>  
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035035.jpg" width="260" height="480"/>  
   
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/Screenshot_20181001-035042.jpg" width="260" height="480"/>
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035042.jpg" width="260" height="480"/>
   
      
 六、拥抱开源  
