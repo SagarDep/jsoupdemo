@@ -30,7 +30,7 @@ private String link;
   
 以 http://www.astron.ac.cn/list-2-1.htm 为例，光标移动到第一篇文章的标题  “宇宙团状物质以三分之一光速的速度被吸入黑洞中”  处，   
   
-<img src="https://github.com/sanlisanlisanli/science/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001024600.png"/>  
+<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001024600.png"/>  
   
 右键鼠标，点击检查  
   
