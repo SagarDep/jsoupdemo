@@ -49,7 +49,7 @@ private String link;
 <img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/3.png"/>       
     
 private static String TianZhiWenHead="http://www.astron.ac.cn/";   
-public List<TianWen>getTianWen(String s){//s为网页url  
+public List'<TianWen'> getTianWen(String s){//s为网页url  
         List<TianWen>beanList=new ArrayList<>();  
         Document doc=Jsoup.parse(s);  
         Element e=doc.select("ul.newslist_pic").first();  
