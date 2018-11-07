@@ -48,7 +48,7 @@ private String link;
   
 <img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/3.png"/>       
     
-private static String TianZhiWenHead="http://www.astron.ac.cn/";   
+   
 public List< TianWen > getTianWen(String s){//s为网页url  
         List< TianWen >beanList=new ArrayList<>();  
         Document doc=Jsoup.parse(s);  
@@ -62,9 +62,8 @@ e.children()就是 ul 标签下所有的 li 标签，注意用.children的时候
             TianWen bean=new TianWen();  
             bean.setTitle(ee.child(0).attr("title"));//setTitle  
             bean.setImgUrl(ee.child(0).child(0).attr("src"));//setImgUrl  
-            bean.setContent(ee.child(1).child(1).text());//setContent   
-            final String link=TianZhiWenHead+ee.child(0).attr("href");    
-            bean.setLink(link);//setLink    
+            bean.setContent(ee.child(1).child(1).text());//setContent      
+            bean.setLink("http://www.astron.ac.cn/"+ee.child(0).attr("href"));//setLink    
             beanList.add(bean);   
         }   
         return beanList;//这个beanList就是recyclerview需要的dataList   
