@@ -34,7 +34,8 @@ private String link;
   
 <img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001024600.png"/>  
   
-右键鼠标，点击检查  
+右键鼠标，点击检查   
+（以QQ浏览器为例，搜狗浏览器的是审查元素，看你的浏览器，总之是查看网页html语言）    
   
 然后就可以看到整个document tree 了  
   
